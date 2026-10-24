@@ -4,6 +4,8 @@
 
 适合把默认工作区当临时会话区的人：每个会话的产物自成一格，用完归档即清，不在工作区根目录留垃圾。
 
+源码 / 问题反馈：<https://github.com/yangstarkone/dsh-default-workspace-session-dir>（MIT，欢迎 issue / PR）
+
 ## 安装
 
 NPM 包安装（Web / TUI profile，一条命令）：
@@ -15,7 +17,7 @@ dsh plugin --profile web add dsh-default-workspace-session-dir
 GitHub 源码安装（未发布 npm 时可用）：
 
 ```bash
-dsh plugin --profile web add github:<owner>/dsh-default-workspace-session-dir
+dsh plugin --profile web add github:yangstarkone/dsh-default-workspace-session-dir
 ```
 
 DeepSeek Harness Desktop：在「设置 → 插件市场」搜索安装，或用「自定义安装」填入 npm 包名 / GitHub 仓库 / 本地目录。
