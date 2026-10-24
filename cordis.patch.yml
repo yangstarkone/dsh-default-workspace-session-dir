@@ -1,0 +1,5 @@
+# Host-only bundle: one row, no config. The plugin resolves the default
+# workspace from the durable workspace registry at activation time.
+- insert:
+    - id: default-workspace-session-dir
+      name: 'dsh-default-workspace-session-dir'

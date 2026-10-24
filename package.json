@@ -1,0 +1,38 @@
+{
+  "name": "dsh-default-workspace-session-dir",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness plugin: every session that runs in the default workspace gets its own timestamped output folder, removed when the session is archived.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "deepseek-harness",
+    "workspace",
+    "session",
+    "cleanup",
+    "temporary-files"
+  ],
+  "engines": {
+    "node": ">=22.6"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

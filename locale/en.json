@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Default Workspace Session Folders",
+    "description": "Gives every session opened in the default workspace its own timestamped output folder and removes that folder when the session is archived. Folders survive an application quit."
+  }
+}
