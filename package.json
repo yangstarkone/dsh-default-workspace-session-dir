@@ -4,6 +4,15 @@
   "description": "DeepSeek Harness plugin: every session that runs in the default workspace gets its own timestamped output folder, removed when the session is archived.",
   "type": "module",
   "license": "MIT",
+  "author": "yangstarkone",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangstarkone/dsh-default-workspace-session-dir.git"
+  },
+  "homepage": "https://github.com/yangstarkone/dsh-default-workspace-session-dir#readme",
+  "bugs": {
+    "url": "https://github.com/yangstarkone/dsh-default-workspace-session-dir/issues"
+  },
   "keywords": [
     "dsh",
     "dsh-plugin",
